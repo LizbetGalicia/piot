@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('Layauts.layaut');
 });
+Route::get('/inicio', function () {
+    return view('Layauts.inicio');
+});
 
 
 
@@ -25,3 +28,7 @@ Route::resources([
     'sensor'=>'SensorController'
     
 ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

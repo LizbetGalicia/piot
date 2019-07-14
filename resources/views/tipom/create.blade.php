@@ -13,7 +13,7 @@
                 @csrf
                 <div class="form-group">
                     <label for="descripcion">Descripcion</label>
-                    <input type="text"  name="descripcion" class="form-control"  placeholder="tipom">
+                    <input type="text"  name="descripcion" class="form-control"  placeholder="tipo de mantenimiento">
                 </div>
                 <button type="submit" class="btn btn-outline-primary">Guardar</button>
             </form>
